@@ -1,0 +1,337 @@
+{
+  "BigBite": [
+    {
+      "id": 21,
+      "restaurant": "Chicken Republic",
+      "logo": "/img/chicken_republic_Logo.png",
+      "menu": [
+        {
+          "id": 1,
+          "name": "Chicken Wings",
+          "price": "12,000",
+          "image": "/img/chichen_wings.jpg",
+          "TopSelling": true,
+          "BestDeals": false,
+          "description": "Authentic Chicken Wings with your choice of sauce, served with crispy bread and tomato sauce.",
+          "Appitizers": true,
+          "MainCourses": false,
+          "Desserts": false
+        },
+        {
+          "id": 2,
+          "name": "Chicken Fried Steak",
+          "price": "18,000",
+          "image": "/img/Chicken_Fried_Steak.jpeg",
+          "TopSelling": true,
+          "BestDeals": false,
+          "description": "Fresh Chicken breast cooked to perfection with our homemade sauce.",
+          "Appitizers": true,
+          "MainCourses": false,
+          "Desserts": false
+        },
+        {
+          "id": 3,
+          "name": "Chicken Salad",
+          "price": "10,000",
+          "image": "/img/Chicken_Salad.jpg",
+          "TopSelling": false,
+          "BestDeals": true,
+          "description": "A delicious chicken salad with mixed greens, tomatoes, cucumbers, and olives.",
+          "Appitizers": false,
+          "MainCourses": true,
+          "Desserts": false
+        }
+      ],
+      "operatingHours": {
+        "monday": "09:00 AM - 10:00 PM",
+        "tuesday": "09:00 AM - 10:00 PM",
+        "wednesday": "09:00 AM - 10:00 PM",
+        "thursday": "09:00 AM - 10:00 PM",
+        "friday": "09:00 AM - 11:00 PM",
+        "saturday": "10:00 AM - 11:00 PM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "location": {
+        "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126832.71840828385!2d3.21559514335937!3d6.581784500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d939b896d6f%3A0xe0ab756439f4dd8e!2sChicken%20Republic%20-%20Ilupeju!5e0!3m2!1sen!2sng!4v1724670351682!5m2!1sen!2sng"
+      }
+    },
+
+    {
+      "id": 22,
+      "restaurant": "McDonald's London",
+      "logo": "/img/mcdonald_logo.png",
+      "menu": [
+        {
+          "id": 4,
+          "name": "Burger",
+          "price": "2,000",
+          "image": "/img/Burger.jpg",
+          "TopSelling": false,
+          "BestDeals": true,
+          "description": "A delicious burger sandwich with lettuce, tomatoes, and cheese.",
+          "Appitizers": false,
+          "MainCourses": true,
+          "Desserts": false
+        },
+        {
+          "id": 5,
+          "name": "Fries",
+          "price": "1,500",
+          "image": "/img/Fries.jpg",
+          "TopSelling": true,
+          "BestDeals": false,
+          "description": "A crispy fries served with a side of crumbled cheese.",
+          "Appitizers": false,
+          "MainCourses": false,
+          "Desserts": true
+        },
+        {
+          "id": 6,
+          "name": "Coke",
+          "price": "500",
+          "image": "/img/coke.jpg",
+          "TopSelling": true,
+          "BestDeals": false,
+          "description": "A light and fluffy coke.",
+          "Appitizers": false,
+          "MainCourses": false,
+          "Desserts": true
+        }
+      ],
+      "operatingHours": {
+        "monday": "09:00 AM - 10:00 PM",
+        "tuesday": "09:00 AM - 10:00 PM",
+        "wednesday": "09:00 AM - 10:00 PM",
+        "thursday": "09:00 AM - 10:00 PM",
+        "friday": "09:00 AM - 11:00 PM",
+        "saturday": "10:00 AM - 11:00 PM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "location": {
+        "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.336677702975!2d-122.35127642464965!3d47.6195863870821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490150050978d81%3A0xd11a3010660160ef!2zTWNEb25hbGTigJlz!5e0!3m2!1sen!2sng!4v1724706023110!5m2!1sen!2sng"
+      }
+    },
+
+    {
+      "id": 23,
+      "restaurant": "Pizza Hut",
+      "logo": "/img/pizza_hut.jpg",
+      "menu": [
+        {
+          "id": 7,
+          "name": "Cheese Pizza",
+          "price": "12,000",
+          "image": "/img/Cheese_Pizza.jpg",
+          "TopSelling": true,
+          "BestDeals": false,
+          "description": "A delicious cheese pizza with mozzarella, tomatoes, and basil.",
+          "Appitizers": false,
+          "MainCourses": true,
+          "Desserts": false
+        },
+        {
+          "id": 8,
+          "name": "Pepperoni Pizza",
+          "price": "12,500",
+          "image": "/img/Pepperoni_Pizza.jpg",
+          "TopSelling": false,
+          "BestDeals": true,
+          "description": "A delicious pepperoni pizza with mozzarella, sausage, and onions.",
+          "Appitizers": false,
+          "MainCourses": false,
+          "Desserts": false
+        },
+        {
+          "id": 9,
+          "name": "Margherita Pizza",
+          "price": "11,000",
+          "image": "/img/Margherita_Pizza.jpg",
+          "TopSelling": true,
+          "BestDeals": false,
+          "description": "A delicious margherita pizza with mozzarella, tomatoes, and basil.",
+          "Appitizers": true,
+          "MainCourses": false,
+          "Desserts": true
+        }
+      ],
+      "operatingHours": {
+        "monday": "09:00 AM - 10:00 PM",
+        "tuesday": "09:00 AM - 10:00 PM",
+        "wednesday": "09:00 AM - 10:00 PM",
+        "thursday": "09:00 AM - 10:00 PM",
+        "friday": "09:00 AM - 11:00 PM",
+        "saturday": "10:00 AM - 11:00 PM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "location": {
+        "address": "2 Ikeja City Mall, Alausa Obafemi Awolowo Way Ikeja, Lagos 100246",
+        "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63412.18604089924!2d3.2858669757842924!3d6.614381683682012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93f1db97e757%3A0x852e06f0ebcdbf1f!2sPizza%20Hut%20Ikeja%20City%20Mall!5e0!3m2!1sen!2sng!4v1724705146548!5m2!1sen!2sng"
+      }
+    },
+
+    {
+      "id": 24,
+      "restaurant": "Taco Bell",
+      "logo": "/img/taco_bell_logo.png",
+      "menu": [
+        {
+          "id": 10,
+          "name": "Chili Tacos",
+          "price": "7,000",
+          "image": "/img/Chili_Tacos.jpg",
+          "TopSelling": true,
+          "BestDeals": false,
+          "description": "A delicious chili taco with beef, avocado, and cilantro.",
+          "Appitizers": false,
+          "MainCourses": true,
+          "Desserts": false
+        },
+        {
+          "id": 11,
+          "name": "Lamb and Corn Tacos",
+          "price": "7,900",
+          "image": "/img/lamb.jpeg",
+          "TopSelling": false,
+          "BestDeals": true,
+          "description": "A delicious lamb and corn taco with beef, avocado, and cilantro.",
+          "Appitizers": false,
+          "MainCourses": false,
+          "Desserts": true
+        },
+        {
+          "id": 12,
+          "name": "Steak Tacos",
+          "price": "1,200",
+          "image": "/img/steak_tacos.jpg",
+          "TopSelling": false,
+          "BestDeals": true,
+          "description": "A delicious steak taco with beef, avocado, and cilantro.",
+          "Appitizers": false,
+          "MainCourses": false,
+          "Desserts": true
+        }
+      ],
+      "operatingHours": {
+        "monday": "09:00 AM - 10:00 PM",
+        "tuesday": "09:00 AM - 10:00 PM",
+        "wednesday": "09:00 AM - 10:00 PM",
+        "thursday": "09:00 AM - 10:00 PM",
+        "friday": "09:00 AM - 11:00 PM",
+        "saturday": "10:00 AM - 11:00 PM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "location": {
+        "address": "2 Ikeja City Mall, Alausa Obafemi Awolowo Way Ikeja, Lagos 100246",
+        "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85972.30219623193!2d-122.5200126566406!3d47.67209749999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549015cc04d08c55%3A0x9ebd8e9d22b3df4c!2sTaco%20Bell!5e0!3m2!1sen!2sng!4v1724705608554!5m2!1sen!2sng"
+      }
+    },
+
+    {
+      "id": 25,
+      "restaurant": "KFC West London",
+      "logo": "/img/kfc_logo.png",
+      "menu": [
+        {
+          "id": 13,
+          "name": "Chicken Sandwich",
+          "price": "6,000",
+          "image": "/img/Chicken_Sandwich.jpg",
+          "TopSelling": true,
+          "BestDeals": false,
+          "description": "A delicious chicken sandwich with lettuce, tomatoes, and mayo.",
+          "Appitizers": false,
+          "MainCourses": true,
+          "Desserts": false
+        },
+        {
+          "id": 14,
+          "name": "Hot Dog",
+          "price": "400",
+          "image": "/img/Hot_Dog.png",
+          "TopSelling": false,
+          "BestDeals": true,
+          "description": "A delicious hot dog with lettuce, tomatoes, and mayo.",
+          "Appitizers": false,
+          "MainCourses": false,
+          "Desserts": true
+        },
+        {
+          "id": 15,
+          "name": "Tuna Mayo",
+          "price": "2,900",
+          "image": "/img/tuna_mayo.jpeg",
+          "TopSelling": false,
+          "BestDeals": true,
+          "description": "A delicious tuna mayo sandwich with lettuce, tomatoes, and mayo.",
+          "Appitizers": true,
+          "MainCourses": false,
+          "Desserts": false
+        }
+      ],
+      "operatingHours": {
+        "monday": "06:00 AM - 12:00 AM",
+        "tuesday": "06:00 AM - 12:00 AM",
+        "wednesday": "06:00 AM - 12:00 AM",
+        "thursday": "06:00 AM - 12:00 AM",
+        "friday": "06:00 AM - 01:00 AM",
+        "saturday": "07:00 AM - 01:00 AM",
+        "sunday": "08:00 AM - 12:00 AM"
+      },
+      "location": {
+        "address": "123 London Road, London, UK",
+        "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.7643971113566!2d3.373361873690281!3d6.551402022841189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ebed8e88eef%3A0x9404d2b44183c5a8!2sKFC%20Nigeria%2C%20Gbagada!5e0!3m2!1sen!2sng!4v1724705463960!5m2!1sen!2sng"
+      }
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "addresses": [
+        {
+          "id": 1,
+          "label": "Home",
+          "address": "123 Main St, City, Country",
+          "city": "Lagos",
+          "postalCode": "100001",
+          "state": "Lagos",
+          "country": "Nigeria"
+        },
+        {
+          "id": 2,
+          "label": "Work",
+          "address": "456 Office St, City, Country",
+          "city": "Lagos",
+          "postalCode": "100002",
+          "state": "Lagos",
+          "country": "Nigeria"
+        }
+      ],
+      "orderHistory": [
+        {
+          "orderId": 101,
+          "restaurant": "Chicken Republic",
+          "items": [
+            {
+              "menuItemId": 1,
+              "name": "Chicken Wings",
+              "quantity": 2,
+              "price": "12,000"
+            },
+            {
+              "menuItemId": 3,
+              "name": "Chicken Salad",
+              "quantity": 1,
+              "price": "10,000"
+            }
+          ],
+          "totalAmount": "34,000",
+          "orderDate": "2024-08-20"
+        }
+      ]
+    }
+  ]
+}
